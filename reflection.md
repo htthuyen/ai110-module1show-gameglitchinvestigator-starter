@@ -56,6 +56,8 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
   - This could be a testing habit, a prompting strategy, or a way you used Git.
       - One habit from this project that I want to reuse in the future projects is that having a testing cases. I found it very essential and save time of debugging and testing
 - What is one thing you would do differently next time you work with AI on a coding task?
-      - Having a better and more structured prompt is the area I want to imporove when work with AI on a coding task. 
+
+    - Having a better and more structured prompt is the area I want to imporove when work with AI on a coding task. 
 - In one or two sentences, describe how this project changed the way you think about AI generated code.
-      - This project highlighted the importance of prompt engineering and taught me to isolate bugs into separate chat sessions. This prevents the AI from getting confused by previous context and ensures more accurate fixes.
+
+    - This project highlighted the importance of prompt engineering and taught me to isolate bugs into separate chat sessions. This prevents the AI from getting confused by previous context and ensures more accurate fixes.
