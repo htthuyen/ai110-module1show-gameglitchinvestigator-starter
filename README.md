@@ -30,10 +30,10 @@ It wrote the code, ran away, and now the game is unplayable.
 - [x] Detail which bugs you found.
    - The first bug I found is that the attemp left display is inaccurate. When the game is over, it still displays as 1 causing confusion to the player
    - The second bug I found is that the hint logic is implemented incorrectly. It randomly says higher and lower despite the fact that whatever the secret number, the guess value, and the range are. For example, the range is 1 to 100.When 1 was entered, it said go lower
-   - Another bug I found is that the input box says "Enter to apply" but it doesn't work.
+
 - [x] Explain what fixes you applied.
    - For the first bug, I changed the initial attempt from 1 to 0. I also correct the loss condition by changing it from >= to >, so the game ends after limit guesses, not before 
-   - The hint message was reversed. To fix this bug, I correct the message according to the condition between guess and secret number. Also, I removed the type flip on even attemps to prevent secret value from converting to string because string comparisions are lexicographic, causing hints are inconsistent on even-numbered attempts
+   - The hint message was reversed. To fix this bug, I corrected the message according to the condition between guess and secret number. Also, I removed the type flip on even attemps to prevent secret value from converting to string because string comparisions are lexicographic, causing hints are inconsistent on even-numbered attempts
 
 
 ## 📸 Demo
